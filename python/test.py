@@ -1,7 +1,2 @@
-t = int(input())
-while t:
-								n = int(input())
-								s = input()
-								a_uniquie = ''.join(set(s))
-								
-								
+N = input()
+print("SAME" if N[0] == N[1] == N[2] == N[3] else "DIFFERENT")
